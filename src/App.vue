@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-   <TodoPage />
+   <!-- <TodoPage /> -->
+   <ArchivePage />
   </div>
 </template>
 
 <script>
-import TodoPage from './Pages/TodoPage.vue'
-
+ //import TodoPage from './Pages/TodoPage.vue'
+import ArchivePage from './Pages/ArchivePage.vue'
 export default {
   name: 'App',
   components: {
-    TodoPage
+    //TodoPage
+    ArchivePage
   }
 }
 </script>
